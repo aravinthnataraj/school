@@ -1,0 +1,154 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(180, 228, 219);
+}
+nav {
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  /* background-color: #858080; */
+}
+li {
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+header nav ul li a,
+header nav ul li h2 {
+  text-decoration: none;
+  padding-top: 18px;
+  cursor: pointer;
+  color: rgb(211, 10, 10);
+}
+header nav ul li h2 {
+  margin-left: 100px;
+}
+.nav_text {
+  margin-left: 650px;
+}
+.nav_text1 {
+  margin-left: 50px;
+}
+.nav_text2 {
+  margin-left: 240px;
+  padding-top: 18px;
+}
+header nav ul li a:hover {
+  border-bottom: solid black 2px;
+  color: green;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+.img_gif,
+.school_img {
+  width: 100%;
+  height: 700px;
+  /* margin-left: 30px; */
+  position: absolute;
+  z-index: -1;
+  border-radius: 15px;
+}
+.row {
+  width: 100%;
+  margin: auto;
+  cursor: pointer;
+}
+.col {
+  position: absolute;
+  width: 20%;
+  top: 50%;
+  left: 40%;
+  /* background-color: aqua; */
+}
+.head {
+  font-size: xx-large;
+  color: rgb(19, 168, 173);
+}
+.sup_text {
+  margin-top: 10px;
+  margin-left: 50px;
+  color: #858080;
+}
+.reg_btn {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(88, 230, 182);
+  color: white;
+  cursor: pointer;
+}
+.reg_btn:hover {
+  background-color: rgb(214, 51, 51);
+  color: black;
+}
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 750px;
+}
+.box {
+  width: 20%;
+  height: 300px;
+  background-color: rgb(110, 167, 164);
+  cursor: pointer;
+  border-radius: 50px;
+}
+.box_head {
+  margin: 20px 80px;
+}
+.box_para {
+  margin: 0px 20px;
+}
+.box_img {
+  margin: 20px 30px;
+  border-radius: 5px;
+}
+.row2 {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  /* justify-content: space-around; */
+}
+/* .school_img {
+  width: 95%;
+  height: 700px;
+  margin-left: 30px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 15px;
+} */
+.col1 {
+  margin-top: 170px;
+  margin-left: 300px;
+}
+.col1:hover {
+  height: 300px;
+  background-color: rgb(62, 116, 98);
+  border-radius: 20px;
+}
+.loc {
+  padding: 20px 50px;
+  color: rgb(15, 15, 13);
+}
+.address {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: rgb(59, 189, 209);
+  line-height: 30px;
+}
+.map {
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+  margin-left: 70px;
+}
